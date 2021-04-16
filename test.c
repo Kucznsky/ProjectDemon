@@ -94,7 +94,7 @@ void test_compareCatalogs()
     printf("test_compareCatalogs:\n");
     char* source = "source";
     char* target = "target";
-    bool recu = false;
+    bool recu = true;
     int treshold = 500;
     compareCatalogs(source, target, treshold, recu);
 }
